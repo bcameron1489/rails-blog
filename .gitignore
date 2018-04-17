@@ -27,3 +27,4 @@
 
 # Hide secrets
 /.env
+/secrets.yml
