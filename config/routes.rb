@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   get 'about-me', to: 'pages#about'
   get 'contact', to: 'pages#contact'
 
-  # blogs routes
+  # blogs routes (blogs use freindly routes gem)
   resources :blogs
 
   # root
