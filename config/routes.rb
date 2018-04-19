@@ -9,7 +9,11 @@ Rails.application.routes.draw do
   get 'contact', to: 'pages#contact'
 
   # blogs routes (blogs use freindly routes gem)
-  resources :blogs
+  resources :blogs do
+    member do
+      get :toggle_status
+      end
+    end
 
   # root
   root to: 'pages#home'
