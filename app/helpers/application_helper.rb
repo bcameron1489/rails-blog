@@ -15,4 +15,8 @@ module ApplicationHelper
       content_tag(:p, greeting, class: "source-greeting")
     end
   end
+
+  def copyright_generator
+    BrianCameronViewTool::Renderer.copyright 'Brian Cameron', 'All rights reserved'
+  end
 end
