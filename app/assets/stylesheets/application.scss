@@ -165,6 +165,10 @@ body {
 * Custom Styles
 */
 
+.auth-links {
+  margin: 10px auto;
+}
+
 .auth-links a {
   color: black;
 }
@@ -175,6 +179,10 @@ body {
   text-align: left;
 }
 
+.card h2, h3 {
+  margin: 10px auto;
+}
+
 .register-text {
   text-align: right;
 }
@@ -183,5 +191,12 @@ body {
   width: 22rem;
   margin: 0 auto;
   float: none;
-  margin-bottom: 10px;
+}
+
+.login h2 {
+  margin-top: 5px;
+}
+
+.form-group {
+  margin-right: 15px;
 }
