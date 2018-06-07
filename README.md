@@ -10,12 +10,12 @@ Thus far I've used devise for user authentication, implemented image file upload
 
 
 Gems used :
--Devise
--Bootstrap 4
--Jquery-rails
--Petergate
--Font-awesome-rails
--Kaminari
--Carrierwave & carrierwave aws
--Mini-magick
+* Devise
+* Bootstrap 4
+* Jquery-rails
+* Petergate
+* Font-awesome-rails
+* Kaminari
+* Carrierwave & carrierwave aws
+* Mini-magick
 
