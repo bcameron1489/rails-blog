@@ -1,24 +1,21 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Description
+Simple portfolio/blog built with ruby on rails (still in development)
 
-Things you may want to cover:
 
-* Ruby version
+### Features
 
-* System dependencies
+Thus far I've used devise for user authentication, implemented image file upload to AWS using carrierwave, implemented kaminari for pagination on blogs page, used html sortable along with jquery to allow admins the ability to drag and drop portfolio items that persists to the database and implemented admin roles using petergate.
 
-* Configuration
 
-* Database creation
+Gems used :
+-Devise
+-Bootstrap 4
+-Jquery-rails
+-Petergate
+-Font-awesome-rails
+-Kaminari
+-Carrierwave & carrierwave aws
+-Mini-magick
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
