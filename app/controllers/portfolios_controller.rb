@@ -49,10 +49,6 @@ class PortfoliosController < ApplicationController
   end
 
   def show
-    puts '--------------------------------------'
-    puts @portfolio_item
-    puts @portfolio_item.main_image
-    puts '--------------------------------------'
   end
 
   def destroy
