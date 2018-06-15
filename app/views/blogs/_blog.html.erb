@@ -21,6 +21,6 @@
   </p>
 
   <p>
-    <%= blog.body %>
+    <%= truncate(markdown(blog.body), length: 600, escape: false) %>
   </p>
 </div>
