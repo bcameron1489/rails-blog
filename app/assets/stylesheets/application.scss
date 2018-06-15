@@ -228,6 +228,7 @@ body {
 .app-card-container {
   color: black;
   padding-top: 40px;
+  text-align: left;
 }
 
 .app-card-container > .card {
@@ -240,4 +241,13 @@ body {
 
 .profile-img {
   border: 1px solid grey;
+}
+
+.card-block {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.about-btn {
+  margin-left: 20px;
 }
