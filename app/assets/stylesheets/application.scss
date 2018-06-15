@@ -224,3 +224,20 @@ body {
 .app-footer {
   color: white;
 }
+
+.app-card-container {
+  color: black;
+  padding-top: 40px;
+}
+
+.app-card-container > .card {
+  padding: 40px;
+}
+
+.app-card-container a {
+  color: blue;
+}
+
+.profile-img {
+  border: 1px solid grey;
+}
