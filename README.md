@@ -19,3 +19,8 @@ Gems used :
 * Carrierwave & carrierwave aws
 * Mini-magick
 
+
+If you wish to clone this repo simply :
+* Git Clone
+* Bunde install
+* Rails s to start locally
